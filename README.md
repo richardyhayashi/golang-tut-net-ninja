@@ -4,11 +4,15 @@
 
 `$ go run main.go`
 
+## Number Ranges
+
+'https://go.dev/ref/spec#Numeric_types'
+
 ## YouTube
 
 1. Introduction & Setup
 2. Your First Go File
-3.
+3. Variables, Strings & Numbers
 4.
 5.
 6.
