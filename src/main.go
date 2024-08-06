@@ -6,32 +6,34 @@ import (
 
 // Entry point of app.
 func main() {
-	// Simple loop
-	/* x := 0
-	for x < 5 {
-		fmt.Println("Value of x is:", x)
-		x++
-	} */
+	age := 25
 
-	// For loop
-	/* for i := 0; i < 5; i++ {
-		fmt.Println("Value of x is:", i)
-	} */
+	fmt.Println(age <= 50)
+	fmt.Println(age >= 50)
+	fmt.Println(age == 45)
+	fmt.Println(age != 50)
 
-	names := []string{"Mario", "Luigi", "Yoshi", "Peach"}
-
-	/* for i := 0; i < len(names); i++ {
-		fmt.Println(names[i])
-	} */
-
-	/* for index, value := range names {
-		fmt.Printf("The value at index %v is %v\n", index, value)
-	} */
-
-	for _, value := range names {
-		fmt.Printf("The value is %v\n", value)
-		value = "new string"
+	if age < 30 {
+		fmt.Println("Age is less then 30")	
+	} else if age < 40 {
+		fmt.Println("Age is less then 40")	
+	} else {
+		fmt.Println("Age is NOT less then 45")	
 	}
 
-	fmt.Println(names)
+	names := []string{"Mario", "Luigi", "Yoshi", "Peach", "Bowser"}
+
+	for index, value := range names {
+		if index == 1 {
+			fmt.Println("Continuing at pos", index)
+			continue
+		} 
+
+		if index > 2 {
+			fmt.Println("Break at pos", index)
+			break
+		}
+
+		fmt.Printf("The value at pos %v is %v\n", index, value)
+	}
 }

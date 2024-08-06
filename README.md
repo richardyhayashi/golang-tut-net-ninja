@@ -26,7 +26,7 @@
 5. Arrays & Slices
 6. The Standard Library
 7. Loops
-8.
+8. Booleans & Conditionals
 9.
 10.
 11.
