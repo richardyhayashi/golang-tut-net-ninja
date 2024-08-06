@@ -19,7 +19,7 @@
 2. Your First Go File
 3. Variables, Strings & Numbers
 4. Printing & Formatting Strings
-5.
+5. Arrays & Slices
 6.
 7.
 8.
