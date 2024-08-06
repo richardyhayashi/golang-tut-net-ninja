@@ -27,7 +27,7 @@
 6. The Standard Library
 7. Loops
 8. Booleans & Conditionals
-9.
+9. Using Functions
 10.
 11.
 12.
