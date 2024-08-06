@@ -25,7 +25,7 @@
 4. Printing & Formatting Strings
 5. Arrays & Slices
 6. The Standard Library
-7.
+7. Loops
 8.
 9.
 10.
