@@ -28,7 +28,7 @@
 7. Loops
 8. Booleans & Conditionals
 9. Using Functions
-10.
+10. Multiple Return Values
 11.
 12.
 13.
